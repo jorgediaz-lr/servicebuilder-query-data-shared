@@ -30,7 +30,6 @@ public class DataModelComparator extends DataBaseComparator {
 
 	@Override
 	public int compare(Data data1, Data data2) {
-
 		if ((attributes == null)|| attributes.isEmpty()) {
 			throw new IllegalArgumentException();
 		}
